@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+    outline: none;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+}
+input[type=text], input[type=tel], textarea {
+        -webkit-appearance: none;
+}
+.wrapper-tt{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 640px;
+    display: block;
+    margin: auto
+}
+[class^="icontt-"], [class*="icontt-"] {
+    background-image:url(../images/iconsocial.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 72px;
+    width: 72px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 72px 256px;
+}
+.noidung p{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px
+}
+.nam2017 .tieude, .nam2016 .tieude, .nam2015 .tieude, .nam2014 .tieude{
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+    width: auto
+}
+.nam2015 iframe{
+    max-width: 640px;
+    min-height: 320px;
+    height: auto;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+.wrapper-tt .img-fullsize,
+.noidung-iphone .img-fullsize{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+.nam2017, .nam2016, .nam2015, .nam2014{
+    margin-top: 10px
+}
+.tomtat{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.icontt-gg{
+    background-position: 0 -94px;
+}
+.icontt-link{
+    background-position: 0 -184px;
+}
+.icontt-fb,
+.icontt-gg,
+.icontt-link{
+    zoom: 0.5;
+}
+.tacgia{
+    display: block;
+    height: auto;
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 26px;
+    float: none;
+    width: 100%;
+}
+.tomtat-noidung{
+    margin: auto;
+    background: #ededed;
+    font-size: 18px;
+    line-height: 35px;
+    width: 100%;
+    padding: 10px 0px;
+    display: block;
+    overflow: hidden;
+}
+.tomtat-noidung01{
+    margin: auto;
+    background: #ededed;
+    font-size: 18px;
+    line-height: 35px;
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+    display: block;
+    overflow: hidden;
+}
+.tomtat-noidung h2{
+    display: block;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.tacgia span{
+    display: block;
+    overflow: hidden;
+}
+.tacgia p{
+    text-transform: uppercase;
+    font-size: 14px
+}
+.tacgia small{
+    color: #999999
+}
+.tt-mxh{
+    padding: 10px 0;
+    display: block;
+    overflow: hidden;
+    border: none;
+    width: 50%;
+    text-align: center;
+}
+.tt-mxh i {
+    display: inline-block;
+    margin-right: 10px;
+}
+.font-bold{
+    font-weight: bold;
+    font-style: italic;
+
+    margin-bottom:10px;
+    }
+.img-fullsize{
+    width:100%;
+}
+.outline{
+    padding-left: 10px;
+}
+.pic-bkav{
+    padding:0px !important;
+    width:100%;
+}
+.cach_dong{
+    margin-top:10px;
+}
+.text-giua{
+    margin-bottom: 10px;
+}
+p{
+    font-family: Arimo;
+}
+.noidung-iphone{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 20px;
+}
+.edit_c{
+    margin-top: 17px !important;
+}
+.nen-trang{
+    background: #fff;
+}
+.noidung-iphone .nen-trang img{
+    float: left;
+    margin: -20px 10px 0px 0;
+    zoom: 0.5;
+}
+.noidung-iphone .nen-trang .text-icon{
+    margin: 20px 1px 0 0;
+    zoom: 0.6;
+}
+.nen-trang a,
+.noidung a{
+    color: #e5137d;
+    text-decoration: underline;
+}
+.font-italic{
+    font-weight: 600;
+    font-style: italic;
+}
+.font-italic span{
+    display: block;
+    font-size: 20px
+}
+.thongtin-italic{
+    font-style: italic;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.font-normal{
+    font-size: 18px;
+    font-weight: 300;
+    /*padding: 10px 0;*/
+    line-height: 35px
+}
+.pic-text{
+    display: block;
+    width: 70%;
+    max-width: 640px;
+    overflow: hidden;
+    margin: auto;
+}
+.xem_them_ul{
+    padding: 10px;
+}
+.img-mobiistar{
+    width:100%;
+}
+.img-bphone3{
+    width:100%;
+}
+.pic-text img{
+    height: auto;
+    display: block;
+    width: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.bullet p{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 
+}
+.bullet p:before{
+    content: '●';
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: #d4d4d4;
+    margin-right: 5px;
+}
+.pic-text .noidung{
+    display: block;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 100%;
+}
+.content-2014{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+.text-12{
+    display: block;
+    overflow: hidden;
+    margin: 20px 0
+}
+.text-12 img{
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-right: 20px;
+    width: 14%;
+}
+.text-12 .noidung,
+.text-12 h3{
+    display: block;
+    overflow: hidden;
+}
+.text-12 h3{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.border-bottom{
+    border-bottom: 1px solid #d9d9d9
+}
+.thongtin-tacgia {
+    width: 50%;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.timcook-mobile,
+.text-mobile{
+    display: block
+}
+.text-12 .noidung {
+    width: 100%;
+}
+@media screen and (max-width: 414px){
+    .pic-text img{
+        width: 100%
+    }
+    .nam2015 iframe{
+        width: 100%
+    }
+    .nam2017 .tieude, .nam2016 .tieude, .nam2015 .tieude, .nam2014 .tieude{
+        width: 100%
+    }
+    article p{
+    padding: 0 10px
+}
+}

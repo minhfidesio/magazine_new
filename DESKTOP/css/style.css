@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.clr {
+    clear: both;
+}
+
+body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font: 14px/18px Arial, Helvetica, sans-serif;
+    color: #333;
+    outline: none;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    text-rendering: geometricPrecision;
+}
+input[type=text], input[type=tel], textarea {
+    -webkit-appearance: none;
+}
+p{
+    font-family: Arimo;
+    font-size: 17px !important;
+    line-height: 30px !important;
+}
+.row{
+    display: flex;
+}
+.block-left{
+    float: left;
+    margin-left: 0px;
+    margin-right: 25px; 
+    flex: 50%;
+}
+.block-right{
+    float: right;
+    margin-left: 15px;
+    margin-right: 50px;
+    flex: 50%;
+}
+.img-mobiistar{
+    margin-bottom: 20px !important;
+    width: 400px;
+    margin-right: 60px !important;  
+    zoom: 1 !important;
+}
+.img-bphone3{
+    margin-bottom: 20px !important; 
+    width: 400px;
+    margin-right: 60px !important;  
+    zoom: 1 !important;    
+}
+.del-margin{
+    margin: 0 !important;
+}
+.edit_t{
+    margin-top: 10px !important;
+}
+.text-giua01{
+    margin-bottom: 8px;
+}
+.xem_them_ul{
+    margin-bottom: 8px;
+}
+.wrapper-tt{
+    font-family: 'Open Sans', sans-serif;
+}
+[class^="icontt-"], [class*="icontt-"] {
+    background-image:url(../images/iconsocial.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 72px;
+    width: 72px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-size: 72px 256px;
+}
+.pic-bkav{
+    width: 400px !important;
+}
+.noidung p{
+    font-size: 18px;
+    color: #333;
+    line-height: 30px
+}
+.noidung01 p{
+    font-size: 18px;
+    color: #5f3512;
+    line-height: 39px;
+    font-style: italic;
+}
+.nam2017 .tieude,
+.nam2016 .tieude,
+.nam2015 .tieude,
+.nam2014 .tieude{
+    max-width: 600px;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+.nam2015 iframe{
+    max-width: 1200px;
+    min-height: 320px;
+    height: auto;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+.nam2015 .pic-text {
+    margin-bottom: 50px;
+}
+.img-fullsize{
+    width: 100%;
+}
+.wrapper-tt .img-fullsize,
+.noidung-iphone .img-fullsize{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    max-width: 1920px
+}
+.nam2017, .nam2016, .nam2015, .nam2014{
+    margin-top: 0px
+}
+.tomtat{
+    width: 80%;
+    display: block;
+    overflow: hidden;
+    margin: 40px auto;
+    max-width: 1200px
+}
+.icontt-gg{
+    background-position: 0 -92px;
+}
+.icontt-link{
+    background-position: 0 -184px;
+}
+.icontt-fb,
+.icontt-gg,
+.icontt-link{
+    zoom: 0.5;
+}
+.tacgia{
+    width: 18%;
+    float: left;
+    display: block;
+    height: auto;
+    font-size: 16px;
+    padding: 0px 0px;
+    line-height: 26px;
+}
+.container{
+    max-width: 950px;
+    margin: auto;
+}
+.font-bold{
+    font-weight: bold;
+}
+.tomtat-noidung{
+    display: block;
+    overflow: hidden;
+    width: 70%;
+    /* float:right; */
+    margin: auto;
+    /* margin-right: 270px; */
+    /* margin-bottom: 20px; */
+    /*background: #ededed;*/
+    padding: 20px;
+    font-size: 18px;
+    line-height: 35px;
+    max-width: 800px;
+}
+.tomtat-noidung01{
+    display: block;
+    /*width: 70%;*/
+    /* float:right; */
+    margin: auto;
+    /* margin-right: 270px; */
+    /* margin-bottom: 20px; */
+    /*background: #ededed;*/
+    padding: 0px;
+    font-size: 18px;
+    line-height: 35px;
+    max-width: 1200px;
+}
+.tomtat-noidung02{
+    display: block;
+    /*width: 70%;*/
+    /* float:right; */
+    margin: auto;
+    /* margin-right: 270px; */
+    /* margin-bottom: 20px; */
+    /*background: #ededed;*/
+    padding: 0px;
+    font-size: 18px;
+    line-height: 35px;
+}
+.tomtat-noidung h2{
+    display: block;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px
+}
+.tacgia span{
+    display: block;
+    overflow: hidden;
+}
+.tacgia p{
+    text-transform: uppercase;
+    font-size: 14px
+}
+.tacgia small{
+    color: #999999
+}
+.tt-mxh{
+    padding: 10px 0;
+    border-top: 3px solid #d9d9d9;
+    width: 34%;
+}
+.tt-mxh i{
+    display: block;
+    padding: 10px 0
+}
+.noidung-iphone{
+    display: block;
+    overflow: hidden;
+    width: auto;
+    margin-top: 50px;
+    margin: auto;  
+}
+.nen-trang{
+    /*background: #fff;*/
+}
+.bg-red{
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.noidung-iphone .nen-trang img{
+    float: left;
+    margin: -10px 10px 5px 0;
+    zoom: 0.5;
+}
+.noidung-iphone .nen-trang .a{
+    margin: 20px 5px 0px 0px;
+    zoom: 1;
+}
+.nen-trang a,
+.noidung a{
+    color: #a42c36;
+    text-decoration: underline;
+    font-size: 17px !important;
+}
+.font-italic{
+    font-weight: 600;
+    font-style: italic;
+}
+
+.font-italic span{
+    display: block;
+    font-size: 20px
+}
+.thongtin-italic{
+    font-style: italic;
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.del{
+    padding: 0 !important;
+}
+.text-giua{
+    margin-bottom: 30px;
+}
+.text-title{
+    padding: 0px !important;
+}
+.font-normal{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0;
+    line-height: 35px
+}
+.pic-text{
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 0px;
+} 
+.pic-text img{
+    float: left;
+    width: 43%;
+    height: auto;
+    margin: -20px 5px 10px 0;
+}
+.pic-text article{
+    display: block;
+    overflow: hidden;
+}
+.pic-text01{
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+}
+.pic-text01 img{
+    float: left;
+    width: 43%;
+    height: auto;
+    margin: 7px 45px 10px 0;
+} 
+.pic-text01 article{
+    display: block;
+    overflow: hidden;
+}
+.bullet p{
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.bullet p:before{
+    content: '●';
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    color: #d4d4d4;
+    margin-right: 5px;
+}
+.pic-text .pic-right{
+    float: right;
+}
+.pic-text .noidung{
+    display: block;
+    overflow: hidden;
+    padding: 20px 0
+}
+.pic-left{
+    float: left;
+    margin: 0 20px 0 0
+}
+.pic-text .noidung p{
+    padding: 0 10px
+}
+.content-2014{
+    display: block;
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+}
+.text-12{
+    display: block;
+    overflow: hidden;
+    margin: 20px 0
+}
+.text-12 img{
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin-right: 40px
+}
+.khongxai{
+    display: none
+}
+.text-12 .noidung,
+.text-12 h3{
+    display: block;
+    overflow: hidden;
+}
+.w-900{
+    max-width: 900px !important;
+}
+.text-12 h3{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.img-center{
+    display: block;
+    max-width: 1200px;
+    width: 700px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 15px
+}
+.img-center01{
+    display: block;
+    /*max-width: 600px;*/
+    width: 700px;
+    margin: 50px auto 0px auto;
+    overflow: hidden;
+    margin-bottom: 15px
+}
+.border-bottom{
+    border-bottom: 1px solid #d9d9d9
+}
